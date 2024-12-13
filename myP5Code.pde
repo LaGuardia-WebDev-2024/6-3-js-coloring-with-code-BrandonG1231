@@ -12,18 +12,34 @@ void draw(){
 
   //💡⬇️⬇️⬇️💡 Your Code For This Unit Goes Here
   
+  background (124, 243, 255);
+  
+  fill (154, 177, 90);
   // The ground
-  rect(0, 300, 400, 100);  
-
+  rect(0, 300, 400, 100);
+  
+  fill (253, 255, 57);
   // The sun
   ellipse(80, 64, 100, 100);  
 
+
+  strokeWeight (2);
+  line (150, 190, 100, 260);  // left arm
+   line (250, 190, 300, 260); // right arm
+   
+  fill (255, 255, 255);
   // The snowman
   ellipse(200, 300, 150, 150);
   ellipse(200, 200, 100, 100);
   ellipse(200, 120, 75, 75);
   
-
+  fill (0, 0, 0);
+  ellipse (187, 119, 5, 5); // left eye
+  ellipse (213, 119, 5, 5); // right eye
+  
+  fill (253, 30, 30);
+  ellipse (200, 300, 30, 30); // button bottom
+  ellipse (200, 200, 25, 25) // button middle
 }
 
 //🟡Extra FUN Features Ms. Hall Added
